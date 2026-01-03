@@ -140,3 +140,61 @@
   background-color: orange;
   cursor: pointer;
 }
+
+@media (max-width: 934px){
+  .wrapper{
+    width: 80% ;
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .timer span{
+    font-size: 64px ;
+  }
+  .inner-nav{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .controls{
+    width : 100% ;
+    text-align: center;
+  }
+  .controls button{
+    margin: 10px;
+  }
+  .top-section{
+    margin: 30px;
+  }
+}
+
+@media (max-width : 480px){
+  .wrapper{
+    width : 92% ;
+    height : auto ;
+    padding: 20px ;
+  }
+
+  .timer span {
+    font-size : 48px ;
+  }
+
+  .inner-nav{
+    flex-direction: column;
+    gap: 10px ;
+  }
+  .btn{
+    font-size:  14px;
+    padding : 8px ;
+  }
+  .controls{
+    width: 100%;
+    padding: 10px ;
+  }
+  .controls button{
+    width:100% ;
+    margin : 8px 0 ;
+    
+  }
+  .top-section {
+    margin: 15px; 
+  }
+}
